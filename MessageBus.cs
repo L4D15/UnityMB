@@ -40,7 +40,7 @@ namespace Becerra.UnityMB
         {
             var type = typeof(T);
 
-            if (_subscribers.ContainsKey(type) == false || _subscribers[type].Contains(subscriber))
+            if (_subscribers.ContainsKey(type) == false || _subscribers[type].Contains(subscriber) == false)
             {
                 Debug.LogWarning("Unsubscribing from " + type + " but it was never subscribed to.");
                 return;
