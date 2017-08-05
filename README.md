@@ -1,7 +1,7 @@
 UnityMB
 ============
 
-A very simple message bus to used in Unity based on [Poya Manouchehri's](https://startupfreakgame.com/2016/02/17/a-simple-message-bus-in-unity/) version.
+A very simple message bus to use in Unity games, based on [Poya Manouchehri's](https://startupfreakgame.com/2016/02/17/a-simple-message-bus-in-unity/) version.
 
 ## Requeriments
 
